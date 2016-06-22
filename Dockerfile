@@ -17,8 +17,7 @@ RUN \
 # because they are required for npm modules
 RUN \
         apt-get update > /dev/null && \
-        apt-get install -y git && \
-        apt-get install -y python
+        apt-get install -y git
 
 
 # Install nodejs 6.x
