@@ -13,8 +13,8 @@ RUN \
         rm -rf mongodb-linux-x86_64-3.0.12.tgz && \
         mkdir -p /data/db
 
-# Install git and python. Git and python are installed
-# because they are required for npm modules
+# Install git. Git is installed
+# because it is required for npm modules
 RUN \
         apt-get update > /dev/null && \
         apt-get install -y git
